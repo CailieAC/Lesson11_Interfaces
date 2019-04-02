@@ -6,7 +6,11 @@ namespace Lesson11_Interfaces
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var car = new Car();
+            var lawnmower = new Lawnmower();
+
+            car.Start();
+            lawnmower.Stop();
         }
     }
 }
